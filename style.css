@@ -1,14 +1,30 @@
-*{
+@font-face {
+    font-family: 'AdineuePROKZ';
+    src: url('fonts/AdineuePROKZ-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AdineuePROKZ';
+    src: url('fonts/AdineuePROKZ-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: AnineuePROKZ, Arial, sans-serif;
 }
 
-a{
+a {
     color: green;
     text-decoration: none;
 }
-.header_top{
+
+.header_top {
     width: 100vw;
     height: 40px;
     display: flex;
@@ -17,18 +33,19 @@ a{
     padding: 0 60px;
     border-bottom: grey 2px solid;
 }
-.header_bottom
-{
-   width: 100vw;
+
+.header_bottom {
+    width: 100vw;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 60px;
     border-bottom: grey 2px solid;
-    
+
 }
-.right_header{
+
+.right_header {
     width: 250px;
     display: flex;
     justify-content: space-between;
