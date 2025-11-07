@@ -1,52 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="mn">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Mongolia</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Mongolia</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div class="header_top">
-            <div class="left_header">
-                <a href="#">for foriegners</a>
-            </div>
-            <div class="right_header">
-                <div class="weather">
-
-                    <a href="#"> Цаг агаар</a>
-                </div>
-                <div class="dollar">
-
-                    <a href="#">Валют</a>
-                </div>
-
-                <a href="#">Он сар</a>
-            </div>
-        </div>
-        <div class="header_bottom">
-            <div class="left_header">
-                <a href="#">Emongolia logo</a>
-            </div>
-            <div class="right_header">
-                <div><a href="#">хайлт</a></div>
-                <div><a href="#">Нэвтрэх</a></div>
-                <div><a href="#" id="button-1">Button</a></div>
-                <div><a href="#" id="button-2">Button-2</a></div>
-            </div>
-        </div>
-    </header>
-    <div>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque quod voluptas inventore dicta reprehenderit
-            debitis, cum optio doloribus id quam! Beatae nostrum commodi porro iste sequi praesentium quisquam molestias
-            accusamus.</p>
+  <!-- ======= HEADER ======= -->
+  <header>
+    <div class="header_top">
+      <div class="left_header">
+        <a href="#">For foreigners</a>
+      </div>
+      <div class="right_header">
+        <a href="#">Цаг агаар</a>
+        <a href="#">Валют</a>
+        <a href="#">Он сар</a>
+      </div>
     </div>
-    <a href="">Dulguun</a>
-    <a href="">Ankhaa</a>
-</body>
 
+    <div class="header_bottom">
+      <div class="left_header">
+        <a href="#"><img src="https://cache.e-mongolia.mn/files/portal-v5/images/logo/emongolia-logo.svg" alt="E-Mongolia Logo" height="36"></a>
+      </div>
+      <div class="right_header">
+        <a href="#">Хайлт</a>
+        <a href="#">Нэвтрэх</a>
+        <a href="#" class="btn">Үйлчилгээ үзүүлэх</a>
+        <a href="#" class="btn-secondary">Тусламж</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======= HERO SECTION ======= -->
+  <section class="hero">
+    <span>Төрийн үйлчилгээ, мэдээллийг нэг дороос...</span>
+    <div class="search-box">
+      <img src="https://cache.e-mongolia.mn/files/portal-v5/images/chimege/chimege.svg" alt="Chimege Icon">
+      <input type="text" placeholder="Үйлчилгээ, хууль, яам, засгийн газрын нэгжүүдээр хайх...">
+    </div>
+  </section>
+
+  <!-- ======= POPULAR SERVICES ======= -->
+  <section class="services">
+    <h2>Түгээмэл үйлчилгээ</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <img src="https://cache.e-mongolia.mn/files/portal-v5/images/services/1.svg" alt="Service 1">
+        <p>Иргэний үнэмлэхний лавлагаа</p>
+      </div>
+      <div class="service-card">
+        <img src="https://cache.e-mongolia.mn/files/portal-v5/images/services/2.svg" alt="Service 2">
+        <p>Оршин суугаа газрын тодорхойлолт</p>
+      </div>
+      <div class="service-card">
+        <img src="https://cache.e-mongolia.mn/files/portal-v5/images/services/3.svg" alt="Service 3">
+        <p>Татварын тайлан шалгах</p>
+      </div>
+      <div class="service-card">
+        <img src="https://cache.e-mongolia.mn/files/portal-v5/images/services/4.svg" alt="Service 4">
+        <p>Эрүүл мэндийн даатгал</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 E-Mongolia. Бүх эрх хуулиар хамгаалагдсан.</p>
+    </div>
+  </footer>
+</body>
 </html>
